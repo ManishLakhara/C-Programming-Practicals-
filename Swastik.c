@@ -1,7 +1,7 @@
 // Swastik Symbole 
 #include <stdio.h>
-void main(void){
-    int n=7,mid=n/2+1;
+void main(void){ // no args in main
+    int n=7,mid=n/2+1; // length most be in Odd
     int i=0,j=0;
     for(i=1;i<=n;i++){
         for(j=1;j<=n;j++){
@@ -13,6 +13,4 @@ void main(void){
         }
         printf("\n");
     }
-
-
 }
